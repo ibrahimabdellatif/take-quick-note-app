@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addNewWordActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="word"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="missingConstring"
+        android:maxLines="1"
+        android:inputType="text"
+        android:id="@+id/ed_word"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="word meaning"
+        android:layout_below="@+id/ed_word"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="missingConstring"
+        android:maxLines="2"
+        android:inputType="text"
+        android:id="@+id/ed_meaning"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="word type"
+        android:layout_below="@+id/ed_meaning"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="missingConstring"
+        android:maxLines="1"
+        android:inputType="text"
+        android:id="@+id/ed_word_type"
+        />
+
+</RelativeLayout>
